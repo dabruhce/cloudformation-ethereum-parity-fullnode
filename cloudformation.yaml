@@ -454,7 +454,7 @@ Resources:
              cargo build --release
              cp ./target/release/parity /usr/local/bin/
              set
-             parity --chain ropsten --jsonrpc-hosts all --jsonrpc-interface all --snapshot-peers=25 --max-peers=10 --min-peers=25
+             parity --chain ropsten --jsonrpc-apis eth,parity --jsonrpc-hosts all --jsonrpc-interface all --snapshot-peers=25 --max-peers=10 --min-peers=25
   ElasticLoadBalancer:
     Type: AWS::ElasticLoadBalancing::LoadBalancer
     Properties:
