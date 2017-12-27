@@ -1,5 +1,10 @@
 
 
+
+````text
+ ./parity --chain ropsten --jsonrpc-hosts all --jsonrpc-interface all --jsonrpc-apis all --snapshot-peers=25 --max-peers=10 --min-peers=25
+````
+
 ````text
 #base deploy commands for amzlinux
 sudo bash && cd ~
