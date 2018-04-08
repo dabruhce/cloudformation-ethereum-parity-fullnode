@@ -450,7 +450,7 @@ Resources:
              export PATH="$PATH:/usr/local/bin"
              git clone https://github.com/paritytech/parity
              cd parity
-             git checkout b49c44a1982bfac03f70641cd570560878b83658
+             git checkout ff821daf1da42865f229aee35f2e74e7b2dd8db2
              cargo build --release
              cp ./target/release/parity /usr/local/bin/
              set
